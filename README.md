@@ -1,4 +1,4 @@
 # bit09exercises
-se creo un repositorio para hacer practicas de react.
+estees un repo para practicar react.
 ## autor 
-Eusbeidy 
+EUSBEIDY
