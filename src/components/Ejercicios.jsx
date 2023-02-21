@@ -1,6 +1,6 @@
 import React from 'react'
 
 export const Ejercicios = () => {
-  return <h1>Ejercicios</h1>
+  return <h1 className='text-center'>Ejercicios</h1>
   
 }
