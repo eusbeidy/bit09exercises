@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import { Ejercicio1 } from './Ejercicio1'
 import { Ejercicio2 } from './Ejercicio2'
+import {Ejercicio3} from './Ejercicio3'
 
 
 export const Ejercicios = () => {
@@ -15,6 +16,7 @@ export const Ejercicios = () => {
   <ol>
   <li onClick={() => setEjercicio(<Ejercicio1 />)}>Contador</li>
   <li onClick={() => setEjercicio(<Ejercicio2 />)}>Ejercicio 2</li>
+  <li onClick={() => setEjercicio(<Ejercicio3 />)}>Ejercicio 3</li>
   </ol>
    ) : (
     <div className='text-center'>
