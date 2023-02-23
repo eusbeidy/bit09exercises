@@ -15,13 +15,13 @@ export const Ejercicios = () => {
   {!ejercicio ? (
   <ol>
   <li onClick={() => setEjercicio(<Ejercicio1 />)}>Contador</li>
-  <li onClick={() => setEjercicio(<Ejercicio2 />)}>Ejercicio 2</li>
-  <li onClick={() => setEjercicio(<Ejercicio3 />)}>Ejercicio 3</li>
+  <li onClick={() => setEjercicio(<Ejercicio2 />)}>Mostrar Imagenes</li>
+  <li onClick={() => setEjercicio(<Ejercicio3 />)}>Directorio</li>
   </ol>
    ) : (
     <div className='text-center'>
           {ejercicio}
-          <Button variant='link' onClick={() => ejercicio(null)}>
+          <Button variant='link' onClick={() => setEjercicio(null)}>
             Regresar
           </Button>
         </div>

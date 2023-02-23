@@ -9,11 +9,11 @@ export const Nav = () => {
    <BrowserRouter>
    <nav className='py-4 text-center'>
     <Link className='mx-2' to='/'>Inicio</Link>
-    <Link className='mx-2' to='/ejercicios'>Ejercicios</Link>
+    <Link className='mx-2' to='/Ejercicios'>Ejercicios</Link>
    </nav>
    <Routes>
      <Route path='/'element={<Inicio/>}/>
-     <Route path='/ejercicios' element={<Ejercicios/>} />
+     <Route path='/Ejercicios' element={<Ejercicios/>} />
    </Routes>
    </BrowserRouter>
   )
