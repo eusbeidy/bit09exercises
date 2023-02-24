@@ -8,13 +8,13 @@ export const Inicio = () => {
       <Figure>
       <Figure.Image
       roundedCircle
-        width={200}
-        height={200}
+        width={300}
+        height={300}
         alt="200x200"
-        src="src\img\me.jpg"
+        src="https://eusbeidy.github.io/bit07me/img/me.png"
       />
-      <Figure.Caption>
-        Eusbeidy perez.
+      <Figure.Caption className='h1'>
+        Eusbeidy pérez.
       </Figure.Caption>
     </Figure>
     </section>

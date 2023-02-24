@@ -21,9 +21,7 @@ export const Ejercicios = () => {
    ) : (
     <div className='text-center'>
           {ejercicio}
-          <Button variant='link' onClick={() => setEjercicio(null)}>
-            Regresar
-          </Button>
+          <Button className='my-3' variant="outline-warning" onClick={() => setEjercicio(null)}>Regresar</Button>{' '}
         </div>
   )}
   </section>
