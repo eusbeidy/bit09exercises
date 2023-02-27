@@ -48,7 +48,7 @@ const datosTabla = () =>{
 }
   return (
     <section>
-        <h2>ejercicio3</h2>
+        <h2>Ejercicio 3</h2>
         {error 
         ?
         <Alert variant='danger'>
